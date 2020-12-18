@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.webcheckers</OriginalElement>
+  <nodes>
+    <node x="299.8302853037767" y="978.0">com.webcheckers.model.Game</node>
+    <node x="448.70560344827595" y="1685.0">com.webcheckers.model.GameRules</node>
+    <node x="439.1600882594418" y="401.0">com.webcheckers.model.Row</node>
+    <node x="416.21875" y="678.5">com.webcheckers.model.Player</node>
+    <node x="646.21875" y="712.0">com.webcheckers.model.Message</node>
+    <node x="335.4756362889985" y="0.0">com.webcheckers.model.Piece</node>
+    <node x="0.0" y="423.5">com.webcheckers.model.Move</node>
+    <node x="474.7850882594418" y="166.0">com.webcheckers.model.Space</node>
+    <node x="947.705603448276" y="0.0">com.webcheckers.model.Challenge</node>
+    <node x="43.21875" y="579.0">com.webcheckers.model.Board</node>
+    <node x="23.900000000000034" y="177.0">com.webcheckers.model.Position</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.webcheckers.model.Game" target="com.webcheckers.model.Board">
+      <point x="-41.85714285714289" y="-323.5" />
+      <point x="404.4731424466338" y="938.0" />
+      <point x="352.09375" y="938.0" />
+      <point x="132.375" y="169.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Space" target="com.webcheckers.model.Piece">
+      <point x="65.0" y="-92.5" />
+      <point x="637.2850882594419" y="126.0" />
+      <point x="433.4756362889985" y="126.0" />
+      <point x="28.0" y="48.0" />
+    </edge>
+    <edge source="com.webcheckers.model.Board" target="com.webcheckers.model.Row">
+      <point x="110.3125" y="-169.5" />
+      <point x="330.03125" y="549.0" />
+      <point x="515.2850882594419" y="549.0" />
+      <point x="-25.375" y="59.0" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Game">
+      <point x="-85.125" y="-169.0" />
+      <point x="590.580603448276" y="1645.0" />
+      <point x="446.3302853037767" y="1645.0" />
+      <point x="0.0" y="323.5" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Piece">
+      <point x="198.62500000000003" y="-169.0" />
+      <point x="874.330603448276" y="1665.0" />
+      <point x="848.8302853037767" y="1665.0" />
+      <point x="848.8302853037767" y="116.0" />
+      <point x="461.4756362889985" y="116.0" />
+      <point x="56.0" y="48.0" />
+    </edge>
+    <edge source="com.webcheckers.model.Game" target="com.webcheckers.model.Message">
+      <point x="125.57142857142856" y="-323.5" />
+      <point x="571.9017138752052" y="958.0" />
+      <point x="702.84375" y="958.0" />
+      <point x="-18.875" y="36.5" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Space">
+      <point x="141.87500000000003" y="-169.0" />
+      <point x="817.580603448276" y="1665.0" />
+      <point x="831.15625" y="1665.0" />
+      <point x="831.15625" y="376.0" />
+      <point x="645.4100882594419" y="376.0" />
+      <point x="73.12499999999999" y="92.5" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Message">
+      <point x="28.375" y="-169.0" />
+      <point x="704.080603448276" y="1655.0" />
+      <point x="774.15625" y="1655.0" />
+      <point x="774.15625" y="958.0" />
+      <point x="778.34375" y="958.0" />
+      <point x="56.62500000000003" y="36.5" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Row">
+      <point x="85.12500000000003" y="-169.0" />
+      <point x="760.830603448276" y="1665.0" />
+      <point x="807.71875" y="1665.0" />
+      <point x="807.71875" y="559.0" />
+      <point x="616.7850882594419" y="559.0" />
+      <point x="76.125" y="59.0" />
+    </edge>
+    <edge source="com.webcheckers.model.Row" target="com.webcheckers.model.Space">
+      <point x="-67.66666666666669" y="-59.0" />
+      <point x="472.9934215927751" y="376.0" />
+      <point x="499.1600882594418" y="376.0" />
+      <point x="-73.125" y="92.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Board" target="com.webcheckers.model.Piece">
+      <point x="22.0625" y="-169.5" />
+      <point x="241.78125" y="559.0" />
+      <point x="226.40000000000003" y="559.0" />
+      <point x="226.40000000000003" y="146.0" />
+      <point x="349.4756362889985" y="146.0" />
+      <point x="-56.0" y="48.0" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Board">
+      <point x="-141.875" y="-169.0" />
+      <point x="533.830603448276" y="1655.0" />
+      <point x="78.61073481116586" y="1655.0" />
+      <point x="78.61073481116586" y="958.0" />
+      <point x="87.34375" y="958.0" />
+      <point x="-132.375" y="169.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Move" target="com.webcheckers.model.Position">
+      <point x="-30.5" y="-36.5" />
+      <point x="30.5" y="376.0" />
+      <point x="43.10000000000002" y="376.0" />
+      <point x="-76.80000000000001" y="81.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Board" target="com.webcheckers.model.Move">
+      <point x="-154.4375" y="-169.5" />
+      <point x="65.28125" y="559.0" />
+      <point x="91.5" y="559.0" />
+      <point x="30.5" y="36.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Board" target="com.webcheckers.model.Position">
+      <point x="-110.3125" y="-169.5" />
+      <point x="109.40625" y="559.0" />
+      <point x="145.35560344827599" y="559.0" />
+      <point x="145.35560344827599" y="376.0" />
+      <point x="119.90000000000003" y="376.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.webcheckers.model.GameRules" target="com.webcheckers.model.Move">
+      <point x="-198.625" y="-169.0" />
+      <point x="477.08060344827595" y="1665.0" />
+      <point x="30.5" y="1665.0" />
+      <point x="-30.5" y="36.5" />
+    </edge>
+    <edge source="com.webcheckers.model.Game" target="com.webcheckers.model.Player">
+      <point x="0.0" y="-323.5" />
+      <point x="446.3302853037767" y="958.0" />
+      <point x="468.71875" y="958.0" />
+      <point x="-52.5" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="748.375" y="1496.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
